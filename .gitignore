@@ -164,3 +164,45 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# iOS and Android native build folders
+/ios
+/android
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build artifacts
+build/
+.gradle
+.idea
+*.iml
+build.gradle
+app/build/
+android/app/build/
+
+# iOS specific
+Pods/
+Podfile.lock
+*.xcworkspace
+*.xcuserdata
+ios/Podfile.lock
+ios/DerivedData/
+ios/build/
+
+# Expo web builds
+web-build/
+dist/
+
+# Metro bundler cache
+.metro-cache/
+
+# Keys and sensitive files
+*.jks  # Android keystore files
+*.keystore
+*.p8   # iOS private key files
+*.p12  # iOS certificate files
+*.key
+*.mobileprovision  # iOS provisioning profiles
+*.pem   # SSL/TLS certificates
